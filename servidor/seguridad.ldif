@@ -1,0 +1,5 @@
+# Exige cifrado (SSF >= 128) para aceptar autenticaciones simples
+dn: cn=config
+changetype: modify
+add: olcSecurity
+olcSecurity: simple_bind=128

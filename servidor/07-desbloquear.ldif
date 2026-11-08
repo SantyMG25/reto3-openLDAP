@@ -1,0 +1,3 @@
+dn: uid=empleado2,ou=personal,dc=empresa,dc=test
+changetype: modify
+delete: pwdAccountLockedTime

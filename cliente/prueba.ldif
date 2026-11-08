@@ -1,0 +1,4 @@
+dn: uid=empleado2,ou=personal,dc=empresa,dc=test
+changetype: modify
+replace: description
+description: Modificado por admin1

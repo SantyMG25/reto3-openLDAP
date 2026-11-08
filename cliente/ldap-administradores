@@ -1,0 +1,2 @@
+# /etc/sudoers.d/ldap-administradores  (editar con: sudo visudo -f /etc/sudoers.d/ldap-administradores)
+%administradores ALL=(ALL:ALL) ALL

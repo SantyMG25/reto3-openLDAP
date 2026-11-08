@@ -1,0 +1,5 @@
+dn: ou=personal,dc=empresa,dc=test
+objectClass: top
+objectClass: organizationalUnit
+ou: personal
+

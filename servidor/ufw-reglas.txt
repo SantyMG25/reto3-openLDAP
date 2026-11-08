@@ -1,0 +1,6 @@
+# Reglas de UFW del servidor vm-openldap
+sudo ufw default deny incoming
+sudo ufw default allow outgoing
+sudo ufw allow from 45.238.183.9 to any port 389 proto tcp   # LDAP solo desde el cliente
+sudo ufw limit 2222/tcp                                         # SSH con limite de conexiones
+sudo ufw enable

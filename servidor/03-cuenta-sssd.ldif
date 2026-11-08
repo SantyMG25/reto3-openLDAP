@@ -1,0 +1,8 @@
+# Cuenta de servicio de solo lectura para SSSD.
+# Generar el hash con: slappasswd -s '<contraseña>'  y pegarlo abajo.
+dn: cn=sssd,dc=empresa,dc=test
+objectClass: organizationalRole
+objectClass: simpleSecurityObject
+cn: sssd
+description: Cuenta de servicio de solo lectura para el cliente SSSD
+userPassword: {SSHA}<HASH_GENERADO_CON_SLAPPASSWD>

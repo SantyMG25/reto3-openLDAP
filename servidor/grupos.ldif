@@ -1,0 +1,11 @@
+dn: cn=administradores,ou=personal,dc=empresa,dc=test
+objectClass: top
+objectClass: posixGroup
+cn: administradores
+gidNumber: 10001
+
+dn: cn=empleados,ou=personal,dc=empresa,dc=test
+objectClass: top
+objectClass: posixGroup
+cn: empleados
+gidNumber: 10002

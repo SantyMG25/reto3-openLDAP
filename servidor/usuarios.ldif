@@ -1,0 +1,39 @@
+
+dn: uid=admin1,ou=personal,dc=empresa,dc=test
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+cn: Administrador Uno
+sn: Uno
+uid: admin1
+uidNumber: 20001
+gidNumber: 10001
+homeDirectory: /home/admin1
+loginShell: /bin/bash
+userPassword: {CRYPT}x
+
+dn: uid=empleado1,ou=personal,dc=empresa,dc=test
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+cn: Empleado Uno
+sn: Uno
+uid: empleado1
+uidNumber: 20002
+gidNumber: 10002
+homeDirectory: /home/empleado1
+loginShell: /bin/bash
+userPassword: {CRYPT}x
+
+dn: uid=empleado2,ou=personal,dc=empresa,dc=test
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+cn: Empleado Dos
+sn: Dos
+uid: empleado2
+uidNumber: 20003
+gidNumber: 10002
+homeDirectory: /home/empleado2
+loginShell: /bin/bash
+userPassword: {CRYPT}x

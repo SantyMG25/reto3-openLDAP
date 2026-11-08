@@ -1,0 +1,17 @@
+dn: cn=politica-contrasenas,dc=empresa,dc=test
+objectClass: organizationalRole
+objectClass: pwdPolicy
+cn: politica-contrasenas
+description: Politica de contrasenas por defecto
+pwdAttribute: userPassword
+pwdMinLength: 8
+pwdCheckQuality: 2
+pwdInHistory: 3
+pwdMaxFailure: 3
+pwdLockout: TRUE
+pwdLockoutDuration: 120
+pwdFailureCountInterval: 300
+pwdMaxAge: 7776000
+pwdAllowUserChange: TRUE
+pwdMustChange: FALSE
+pwdSafeModify: FALSE
