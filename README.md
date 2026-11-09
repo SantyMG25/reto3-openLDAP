@@ -1,9 +1,5 @@
 # Reto 3 — Gestión centralizada de usuarios con OpenLDAP
 
-Proyecto final de **Sistemas Operacionales 2026-2** — Universidad El Bosque.
-Docente: Ing. Samuel Galindo Pinzón.
-
-**Equipo:** Salomón Ángel Caldas Pedraza · Juan Pablo Niño · Santiago Mayorga · Juan Sebastian Rodriguez
 
 Servicio de directorio **OpenLDAP** en un servidor Ubuntu Server 26.04 LTS en Microsoft Azure. Centraliza la identidad y la autenticación de los usuarios de una empresa ficticia (`dc=empresa,dc=test`). Un cliente Ubuntu en VirtualBox consulta el directorio e inicia sesión con sus usuarios a través de Internet, con cifrado StartTLS obligatorio.
 
