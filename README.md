@@ -11,7 +11,7 @@ Servicio de directorio **OpenLDAP** en un servidor Ubuntu Server 26.04 LTS en Mi
 
 ## Arquitectura
 
-![Arquitectura](docs/arquitectura.png)
+![Arquitectura](docs/arquitectura.jpeg)
 
 | Elemento | Dirección / puerto | Función |
 |---|---|---|
